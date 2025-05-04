@@ -1,0 +1,73 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+
+body{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("leaves.jpg");
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+#container{ display: flex;
+position: relative;
+flex-wrap: nowrap;
+height: 90vh;
+width: 90vw;
+overflow: auto;
+align-items: center;
+justify-content: center;
+gap: 3rem;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+#odin{
+    display: flex;
+flex: 0 0 250px;
+    height: 80vh;
+width: 90%;
+    max-width: 80vw;
+    font-family: norse-bold;
+    font-size: 50px;
+    color: white;
+
+    position: relative;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+
+form{
+margin: 0 auto;
+height: 70vh;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    width: 40vw;
+    max-width: 90%;
+margin: 0 auto;
+font-family: 'Courier New', Courier, monospace;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+}
+
+button{
+background-color: green;
+position: relative;
+ color: white;
+
+ margin: auto;
+}
